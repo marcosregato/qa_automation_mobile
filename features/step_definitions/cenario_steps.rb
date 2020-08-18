@@ -14,7 +14,3 @@ end
 Então("app exibe os detalhes do imovel escolhido") do 
     find_element(id: "point_of_care_zip_code").click
 end
-
-E("valida a informacao") do
-    find_element(id: "id/permission_allow_button").click
-end
